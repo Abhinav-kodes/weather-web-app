@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color: rgb(41, 41, 41);
     display: flex; 
     justify-content: center;
 }
@@ -9,21 +9,36 @@ body{
     border: 4px;
     border-style: solid;
     border-radius: 10px;
-    border-color: blue;
-    box-shadow: 10px 10px 15px rgb(20, 152, 148);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 15px rgb(80, 80, 80);
     padding: 20px;
     height: 400px;
     width: 400px;
     display: flex; 
     align-items: center;
     flex-direction: column;
+    color: rgb(255, 255, 255);
 }
 .texty{
-    color: rgb(108, 10, 200);
-    text-shadow: 8px 8px 10px rebeccapurple;
+    color: rgb(228, 204, 252);
+    text-shadow: 8px 8px 10px rgb(172, 112, 233);
+}
+
+button{
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 60%);
+    color: rgb(0, 0, 0);
 }
 #name{
+    border: 1px solid white;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 250px;
     height: 25px;
+    margin-top: 15px;
 }
